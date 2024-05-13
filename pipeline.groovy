@@ -51,7 +51,7 @@ pipeline {
         success {
             // Send success email notification
             emailext body: 'Pipeline ran successfully in jenkins',
-                     subject: 'Pipeline Success',
+                     subject: 'Pipeline Build Successfully',
                      to: 'optional2001@gmail.com'
         }
         failure {
