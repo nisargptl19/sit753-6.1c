@@ -50,8 +50,8 @@ pipeline {
     post {
         success {
             // Send success email notification
-            emailext body: 'Pipeline ran successfully in jenkins',
-                     subject: 'Pipeline Build Successfully',
+            emailext body: 'Pipeline successful in jenkins',
+                     subject: 'Pipeline has been successfully built.',
                      to: 'optional2001@gmail.com'
         }
         failure {
