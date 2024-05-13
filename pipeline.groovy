@@ -2,7 +2,7 @@ pipeline {
     agent any
     
     environment {
-        DIRECTORY_PATH = "/Users/mohakahuja/.jenkins"
+        DIRECTORY_PATH = "C:/Program Files/Jenkins"
         TESTING_ENVIRONMENT = "AWS EC2 instance"
         PRODUCTION_ENVIRONMENT = "AWS EC2 instance"
     }
